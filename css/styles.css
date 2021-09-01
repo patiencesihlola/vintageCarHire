@@ -3,11 +3,15 @@
     margin-top: 5px;
 }
 
+.navbar-nav{
+    text-align: right;
+}
 nav img{
     height: 150px;
     position:absolute;
     border-radius: 30%;
 }
+
 
 .nav-link {
     background-color: mediumaquamarine;
