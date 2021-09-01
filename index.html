@@ -28,13 +28,13 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Cars</a>
+            <a class="nav-link active" aria-current="page" href="#cars">Cars</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Enquires</a>
+            <a class="nav-link" href="#enquiries">Enquires</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contact</a>
           </li>
          </ul>
       </div>
@@ -97,8 +97,36 @@
    <!--Car cards Section ending here-->
 
    <!--Enquiries Section starting here-->
+   <section class="container mt 3 enquiriesstlyes" id="enquiries">
+    <form>
+        <div class="mb-3">
+          <label for="fullname" class="form-label">Full Name:</label>
+          <input type="text" class="form-control" id="fullname" required>
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address:</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" required>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Choose a Car</label>
+        <select class="form-select" aria-label="Default select car">
+  <option selected>.....</option>
+  <option value="1">Car1</option>
+  <option value="2">Car2</option>
+  <option value="3">Car3</option>
+  <option value="3">Car4</option>
+</select>
+  <div class="mb-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Comments:</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+<br>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+</section>
    <!--Enquiries Section ending here-->
     
+
    <!--Contact Section starting here-->
    <!--Contact Section ending here-->
 
