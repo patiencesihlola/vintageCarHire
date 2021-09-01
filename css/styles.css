@@ -4,7 +4,6 @@
 }
 
 .navbar-brand > img{
-    size: 0px;
     border-radius: 3px;
     margin: 5px 3px;
     size: 0.5cm;
@@ -24,4 +23,9 @@ h1{
 
 .enquiriesstlyes {
     background-color: lightskyblue;
+}
+
+footer {
+    text-align: center;
+    font-size: x-small;
 }
