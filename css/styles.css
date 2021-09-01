@@ -1,9 +1,20 @@
 .navbar-brand {
-    text-transform: uppercase;
+   text-transform: uppercase;
     color:red
 }
 
 .navbar-brand > img{
-    size: 5px 3px;
+    size: 3px 2px;
+}
 
+.nav-link {
+    text-align: right;
+}
+
+h1{
+    color:red;
+    text-transform: capitalize;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
 }
