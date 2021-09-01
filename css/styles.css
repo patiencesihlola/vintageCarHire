@@ -1,23 +1,33 @@
+.nav {
+    float: right;
+    margin-top: 5px;
+}
 
+nav img{
+    height: 150px;
+    position:absolute;
+    border-radius: 30%;
+}
 
 .nav-link {
     background-color: mediumaquamarine;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    height: 90px;
 }
 
 h1 {
     color:blue;
-    text-transform: capitalize;
-    font-style: italic;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    margin-top: 5px;
 }
 
 h4  {
-    color: red;
+    color:mediumaquamarine;
     font-style: italic;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
 }
 .enquiriesstlyes {
     background-color: lightskyblue;
@@ -37,10 +47,12 @@ h4  {
 address {
     display: block;
     font-style: italic;
+    margin-top: 5px;
   }
 
   .backtotop {
   text-align: right;
+  margin-top: 5px;
   }
 
   footer {
