@@ -1,0 +1,9 @@
+.navbar-brand {
+    text-transform: uppercase;
+    color:red
+}
+
+.navbar-brand > img{
+    size: 5px 3px;
+
+}
