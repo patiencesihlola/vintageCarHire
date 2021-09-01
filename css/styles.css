@@ -1,12 +1,4 @@
-body {
-    margin-top: ;
-}
 
-.navbar-brand {
-   text-transform: uppercase;
-    color:red;
-    margin-top: 5px;
-}
 
 .nav-link {
     background-color: mediumaquamarine;
@@ -14,14 +6,19 @@ body {
     font-size: 20px;
 }
 
-h1{
-    color:red;
+h1 {
+    color:blue;
     text-transform: capitalize;
     font-style: italic;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
 
+h4  {
+    color: red;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .enquiriesstlyes {
     background-color: lightskyblue;
     margin-top: 5px;
@@ -42,8 +39,8 @@ address {
     font-style: italic;
   }
 
-  p > Back to top{
-      text-align: right;
+  .backtotop {
+  text-align: right;
   }
 
   footer {
